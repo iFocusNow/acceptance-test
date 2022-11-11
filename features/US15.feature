@@ -1,5 +1,6 @@
-Scenario: El padre de familia quiere visualizar en la página web el uso de la applicación de sus diferentes hijos
+Scenario: El padre de familia quiere encontrar un sitio en donde registrarse a Focus
 
-Given: El padre se encuentra en la página web
-When: Ya ingresó a su cuenta de Focus
-Then: Podrá observar las métricas sobre las horas dedicadas a cada curso y todas las actividades que ha realizado.
+Given: El padre de familia se encuentra en la Landing Page de Focus
+When: Observe la barra de navegación
+And: Le de click o presione el boton "Registrarse"
+Then: Será redirigido a la página de registro web de la aplicación web
